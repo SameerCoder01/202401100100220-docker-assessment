@@ -28,14 +28,14 @@ Pending actual execution. Counts must include all targets in each complete repor
 
 | Image | CRITICAL (all) | HIGH (all) | Image size in bytes |
 | --- | --- | --- | --- |
-| fest-backend:0.1 | 234 | 2249 | PENDING exact bytes |
-| fest-backend:0.2 | PENDING | PENDING | PENDING |
+| fest-backend:0.1 | 234 | 2249 | 1607243537 |
+| fest-backend:0.2 | 0 | 49 | 200093417 |
 
-Fixable CRITICAL gate exit code for 0.2: PENDING.
+Fixable CRITICAL gate exit code for 0.2: 0 (passed). The complete report still contains 49 HIGH findings; the filtered gate does not assert zero vulnerabilities at all severities.
 
 ## Published release and signatures
 
-1.0.0 pushed digest: PENDING.
+1.0.0 pushed digest: sha256:b4b5c1b4158cb21746ce44bda9a0f838786f87b7fdf349fa89a966e31429ab1.
 
 1.0 and 1.0.0 point to the same release. The backend APP_VERSION is baked into the release using a build argument and image environment setting. The compose deployment must pull 1.0.0 from the student's registry.
 
@@ -52,4 +52,8 @@ Save whole-window, unedited screenshots under screenshots/: S1-2, S1-3, S2-2, S2
 ## Incomplete steps
 
 - Execution, scans, registry publication, signing, screenshot capture and submission are pending. Replace this line with actual remaining limitations after running the stages.
+
+
+
+
 
