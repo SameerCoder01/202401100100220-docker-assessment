@@ -28,7 +28,7 @@ Pending actual execution. Counts must include all targets in each complete repor
 
 | Image | CRITICAL (all) | HIGH (all) | Image size in bytes |
 | --- | --- | --- | --- |
-| fest-backend:0.1 | PENDING | PENDING | PENDING |
+| fest-backend:0.1 | 234 | 2249 | PENDING exact bytes |
 | fest-backend:0.2 | PENDING | PENDING | PENDING |
 
 Fixable CRITICAL gate exit code for 0.2: PENDING.
@@ -52,3 +52,4 @@ Save whole-window, unedited screenshots under screenshots/: S1-2, S1-3, S2-2, S2
 ## Incomplete steps
 
 - Execution, scans, registry publication, signing, screenshot capture and submission are pending. Replace this line with actual remaining limitations after running the stages.
+
