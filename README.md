@@ -20,11 +20,11 @@ The source files are transcribed from the assessment starter code. PDF line wrap
 
 ## AI tools used
 
-OpenAI Codex was used to read the assessment, transcribe its starter files, prepare Docker/Compose configuration and stage commands, and identify verification requirements. Add any further AI assistance actually used. Assessed commands and screenshots must be produced by the student on their machine.
+OpenAI Codex was used to transcribe the supplied starter code, prepare configuration and commands, troubleshoot errors, review scan results, add two registrations through the local browser, organize the screenshots supplied by the student, and prepare this README. The student ran the assessed terminal commands and captured submission screenshots on this machine.
 
 ## Scan comparison
 
-Pending actual execution. Counts must include all targets in each complete report. The gate checks only fixable CRITICAL vulnerabilities; report unfixed findings separately when present.
+The following totals combine the operating-system and Python targets in the complete saved reports. The separate gate checks only fixable CRITICAL vulnerabilities.
 
 | Image | CRITICAL (all) | HIGH (all) | Image size in bytes |
 | --- | --- | --- | --- |
@@ -35,11 +35,11 @@ Fixable CRITICAL gate exit code for 0.2: 0 (passed). The complete report still c
 
 ## Published release and signatures
 
-1.0.0 pushed digest: sha256:b4b5c1b4158cb21746ce44bda9a0f838786f87b7fdf349fa89a966e31429ab1.
+1.0.0 pushed digest: sha256:b4b5c1b4158cb21746ce44bda9a0f838786f87b7fdf349fa89a966ee31429ab1.
 
-1.0 and 1.0.0 point to the same release. The backend APP_VERSION is baked into the release using a build argument and image environment setting. The compose deployment must pull 1.0.0 from the student's registry.
+1.0 and 1.0.0 point to the same release. The backend APP_VERSION is baked into the release using a build argument and image environment setting. After removing local backend images, Compose pulled 1.0.0 from Docker Hub. The API confirmed version 1.0.0, the correct REGNO, database connectivity and both original registrations.
 
-1.0.0 digest signature verification: PENDING.
+1.0.0 digest signature verification: passed with cosign.pub, exit code 0. The cosign claims, transparency-log inclusion and public-key signature were verified.
 
 Unsigned 1.0.1 digest rejection: PENDING.
 
@@ -47,13 +47,9 @@ Only cosign.pub belongs in this repository. cosign.key, .env and credentials mus
 
 ## Evidence
 
-Save whole-window, unedited screenshots under screenshots/: S1-2, S1-3, S2-2, S2-3, S2-4, S3-1, S3-3, S4-1, S4-2, S4-3, S5-1, S5-2, S5-3 and S5-4. Every terminal screenshot must show the real REGNO prompt and command. Browser evidence must show the address bar and required account identity.
+Evidence screenshots are stored under screenshots/. Required evidence codes: S1-2, S1-3, S2-2, S2-3, S2-4, S3-1, S3-3, S4-1, S4-2, S4-3, S5-1, S5-2, S5-3 and S5-4. Every terminal screenshot must show the real REGNO prompt and command. Browser evidence must show the address bar and required account identity.
 
 ## Incomplete steps
 
-- Execution, scans, registry publication, signing, screenshot capture and submission are pending. Replace this line with actual remaining limitations after running the stages.
-
-
-
-
-
+- Unsigned 1.0.1 rejection test is pending.
+- Final evidence review, GitHub push and portal submission are pending.
