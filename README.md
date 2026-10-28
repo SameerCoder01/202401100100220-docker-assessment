@@ -18,6 +18,10 @@ Create .env using .env.example and a private database password. Run `docker comp
 
 The source files are transcribed from the assessment starter code. PDF line wrapping is normalized without changing application behavior.
 
+## AI tools used
+
+OpenAI Codex was used to transcribe the supplied starter code, prepare configuration and commands, troubleshoot errors, review scan results, add two registrations through the local browser, organize the screenshots supplied by the student, and prepare this README. The student ran the assessed terminal commands and captured submission screenshots on this machine.
+
 ## Scan comparison
 
 The following totals combine the operating-system and Python targets in the complete saved reports. The separate gate checks only fixable CRITICAL vulnerabilities.
@@ -44,3 +48,8 @@ Only cosign.pub belongs in this repository. cosign.key, .env and credentials mus
 ## Evidence
 
 Evidence screenshots are stored under screenshots/. Required evidence codes: S1-2, S1-3, S2-2, S2-3, S2-4, S3-1, S3-3, S4-1, S4-2, S4-3, S5-1, S5-2, S5-3 and S5-4. Every terminal screenshot must show the real REGNO prompt and command. Browser evidence must show the address bar and required account identity.
+
+## Incomplete steps
+
+- The S1-2 image listing is supplemented by the original successful build transcript in reports/stage1-build.txt. Some terminal evidence captures show terminal content without the complete window frame.
+- The public GitHub repository and uploaded evidence were verified after the initial final push. Portal submission is not verified here. Screenshot framing limitations are noted above.
