@@ -52,4 +52,4 @@ Evidence screenshots are stored under screenshots/. Required evidence codes: S1-
 ## Incomplete steps
 
 - The S1-2 image listing is supplemented by the original successful build transcript in reports/stage1-build.txt. Some terminal evidence captures show terminal content without the complete window frame.
-- Final GitHub push and portal submission are pending. All five technical stages have execution evidence; screenshot framing limitations are noted above.
+- The public GitHub repository and uploaded evidence were verified after the initial final push. Portal submission is not verified here. Screenshot framing limitations are noted above.
