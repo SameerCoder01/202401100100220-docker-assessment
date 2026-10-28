@@ -41,7 +41,7 @@ Fixable CRITICAL gate exit code for 0.2: 0 (passed). The complete report still c
 
 1.0.0 digest signature verification: passed with cosign.pub, exit code 0. The cosign claims, transparency-log inclusion and public-key signature were verified.
 
-Unsigned 1.0.1 digest rejection: PENDING.
+Unsigned 1.0.1 verification: rejected with "no signatures found", exit code 10. Version 1.0.1 was built with APP_VERSION=1.0.1, pushed separately, and left unsigned. Version 1.0.0 remains deployed.
 
 Only cosign.pub belongs in this repository. cosign.key, .env and credentials must remain private and absent from all commits.
 
@@ -51,5 +51,5 @@ Evidence screenshots are stored under screenshots/. Required evidence codes: S1-
 
 ## Incomplete steps
 
-- Unsigned 1.0.1 rejection test is pending.
-- Final evidence review, GitHub push and portal submission are pending.
+- The S1-2 image listing is supplemented by the original successful build transcript in reports/stage1-build.txt. Some terminal evidence captures show terminal content without the complete window frame.
+- Final GitHub push and portal submission are pending. All five technical stages have execution evidence; screenshot framing limitations are noted above.
